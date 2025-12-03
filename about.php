@@ -1,31 +1,40 @@
+<?php
+include "database.php";
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>About - Sari-Sari Store</title>
+    <title>About Us - My Sari-Sari Store</title>
+    <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<nav class="top-nav">
-    <h1 class="logo">My Sari-Sari Store</h1>
-    <ul>
-        <li><a href="casia.php">Shop</a></li>
-        <li><a class="active" href="about.php">About</a></li>
-        <li><a href="contact.php">Contacts</a></li>
-    </ul>
-</nav>
+<?php include "navbar.php"; ?>
 
 <div class="page-container">
-    <h2>About Us</h2>
-    <p>
-        Welcome to our Sari-Sari Store!  
-        We provide everyday essentials —  
-        from snacks, drinks, canned goods, to toiletries.  
-        Our mission is to serve the community with convenience  
-        and affordable prices.
-    </p>
+    <h1>About Us</h1>
+
+    <section class="about-section">
+        <h2>Our Story</h2>
+        <p>My Sari-Sari Store started with a simple goal: to provide affordable and high-quality everyday products to our community. From snacks and drinks to household essentials, we make sure our customers can find what they need in one place.</p>
+    </section>
+
+    <section class="about-section">
+        <h2>Our Mission</h2>
+        <p>We aim to create a convenient and friendly shopping experience. Customer satisfaction is our top priority, and we strive to deliver quality products with excellent service.</p>
+    </section>
+
+    <section class="about-section">
+        <h2>Why Choose Us?</h2>
+        <ul>
+            <li>Wide variety of daily essentials at affordable prices.</li>
+            <li>Friendly and helpful service.</li>
+            <li>Quick and easy shopping experience online and in-store.</li>
+        </ul>
+    </section>
 </div>
 
 </body>

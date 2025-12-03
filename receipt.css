@@ -1,0 +1,26 @@
+.receipt-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.receipt-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.receipt-table th, .receipt-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+.total {
+    text-align: right;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
